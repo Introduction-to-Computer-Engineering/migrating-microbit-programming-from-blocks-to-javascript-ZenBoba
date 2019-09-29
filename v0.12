@@ -1,0 +1,46 @@
+// The yes-no-RNG game
+input.onButtonPressed(Button.A, function () {
+    no = Math.randomBoolean()
+    yes = Math.randomBoolean()
+    if (no == false) {
+        radio.sendString("" + arrayWords[0])
+    } else {
+        radio.sendString("" + arrayWords[1])
+    }
+})
+radio.onReceivedString(function (receivedString) {
+    basic.showString(receivedString)
+    radio.onReceivedString(function (receivedString) {
+        basic.showString(receivedString)
+    })
+})
+input.onButtonPressed(Button.AB, function () {
+    radio.sendString("" + arrayWords[2])
+})
+let yes = false
+let no = false
+let arrayWords: string[] = []
+let index = 0
+let x = 0
+let y = 0
+arrayWords = ["yes", "no", "Game Over"]
+basic.showString("Yes-No-RNG Game")
+for (let i = 0; i < 3; i++) {
+    led.plot(2, 2)
+    led.plot(3, 2)
+    led.plot(3, 1)
+    led.plot(3, 0)
+    led.plot(2, 0)
+    led.plot(1, 0)
+    led.plot(2, 4)
+    basic.pause(500)
+    led.toggle(2, 2)
+    led.toggle(3, 2)
+    led.toggle(3, 1)
+    led.toggle(3, 0)
+    led.toggle(2, 0)
+    led.toggle(1, 0)
+    led.toggle(2, 4)
+    basic.pause(500)
+}
+radio.setGroup(1)
