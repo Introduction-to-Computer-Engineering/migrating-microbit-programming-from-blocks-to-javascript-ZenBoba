@@ -90,64 +90,60 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-**Simple animation alternating images "X" and "+". [v0.1.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.1.js)**
+**Using Making to create a simple animation alternating images "X" and "+". [v0.1.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.1.js)**
 
 ### v0.2
 
-**[etc.]**
+**A modified version of v0.1 to inlcude Algorithm. Pressing A will change the images. [v0.2.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.2.js)**
 
 ### v0.3
 
-**[]**
+**A program implementing the use of Variables to count the number of shots made and missed in Basketball. Pressing A adds one count to shots made. Pressing B adds one count to shots missed. Pressing A+B displays total shots made and missed in that order. Shaking the microbit resets the counter. [v0.3.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.3.js)**
 
 ### v0.4
 
-**[]**
+**Uses Conditionals to create alternate game to rock, paper, scissors called shield, sword, bow. Shake the microbit to see what weapon you get. Pressing A displays a gameover. [v0.04.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.4.js)**
 
 ### v0.5
 
-**[]**
-
-## Designs
-
-_**Note:** Add your project designs below._
+**Implements the use of iterations and loops to create a sprialing sprite. Press A to activate the swirl! [v0.5.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.5.js)**
 
 ### v0.6 Midterm project
 
-_**Note:** Add your project designs below._
+**This project recreates the iconic childhood game redlight-greenlight. Press A to start. [v0.6.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.6.js)**
 
 #### Goal
 
-**[your short description]**
+**To use the knowledge I've accumulated within the first five lessons of the CS intro course to create a game using the microbit.**
 
 #### Design process
 
-**[your sketches, the things you tried, the questions you asked yourself, the answers, the sticking points, the iterations, the restarts, the final version]**
+**Using the conditionals and setting my variables was not really difficult to set in motion but I did struggle on figuring out how to set my conditional on Javascript. After spending a couple hours trying to remember, I wiped a clean slate and started a new. The process of redesigning my microgame was smooth until I ran into the issue of figuring out how I would add an iteration into my program's code. That's when I connected to real life driving such as when the light is green for both sides but the yellow arrow is flashing. This inspired my "yellow" flashing light in the program. Due to the only option of LED color being red I prepared the lights in accordance to position on the traffic light.**
 
 #### JS Constructs & objects
 
-**[which JavaScript features you used in the implementation of your project idea]**
+**The redlight-greenlight program features Looping, Variables, Conditional Statements, and Algorithims**
 
 ### v0.7
 
-**[]**
+**By making use of the coodinate grid system, this program, similiar to v0.2, allows a face to be changed in three different ways by turning certain LEDs on and off on the microbit. Pressing A will make a sad face. Pressing B will make a smileyface. Pressing A twice will create a poker face. [v0.7.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.7.js)**
 
 ### v0.8
 
-**[]**
+**Booleans are the source of what allowed me to create this program of truth or dare. Press A to play truth or dare! [v0.8.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.8.js)**
 
 ### v0.9
 
-**[]**
+**This program is the same as the one listed in the CS course. It converts binary into decimal using a basic guideline to binary conversion. Pressing A adds 1 to the end of the binary string while pressing B adds 0. Pressing both A and B converts the binary code into decimal. [v0.9.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.9.js)**
 
 ### v0.10
 
-**[]**
+**This program is also the same as the one included within the CS course. It utilizes two microbit devices to play Marco-Polo! Pressing A sends a Marco message via radiowaves onto the other microbit's LED grid. Pressing B sends a Polo. This works both ways on the Microbit devices. [v0.10.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.10.js)**
 
 ### v0.11
 
-**[]**
+**With the use of Arrays, this game of charades was created using terms of my liking. The game begins with a three second countdown then the first word displays as a string. Facing the screen of the Microbit upward generates a new word in the LED grid. Facing the screen downwards changes the word until there are no remaining words to charade, otherwise the Microbit displays Gameover [v0.11.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.11.js)**
 
 ### v0.12 Final project
 
-**[etc.]**
+**My final project program is a game that displays a randomly generated response (yes or no) to a user made question. Pressing A randomly generates your yes or no response. This program makes use of two microbit devices as the response is displayed onto the asker's Microbit. If you don't feel like playing press A and B to send your partner a Gameover. My final project uses the knowledge of all lessons, 1-10, within the CS course. Some JS constructs featured in this program are  Algorithm, Variables, Conditionals, Iteration, Coordinate grid system, Boolean, Bit-byte-binary, Radio, and Array. [v0.12.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.12)**
