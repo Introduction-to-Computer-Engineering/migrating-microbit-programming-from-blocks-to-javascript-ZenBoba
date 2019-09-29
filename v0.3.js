@@ -28,3 +28,4 @@ input.onGesture(Gesture.Shake, function () {
     Score = 0
     Miss = 0
 })
+ 
