@@ -34,3 +34,4 @@ input.onButtonPressed(Button.A, function () {
 })
 let sprite: game.LedSprite = null
 sprite = game.createSprite(0, 0)
+ 
