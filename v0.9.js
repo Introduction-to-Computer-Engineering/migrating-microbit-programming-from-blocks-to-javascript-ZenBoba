@@ -15,3 +15,4 @@ let binary = ""
 let decimal = 0
 decimal = 0
 binary = ""
+ 
