@@ -90,7 +90,7 @@ _**Note:** Add your program descriptions below._
 
 ### v0.1
 
-**[your description here, linking to the JavaScript [file](example.js)**]
+**Simple animation alternating images "X" and "+". [v0.1.js](https://github.com/Introduction-to-Computer-Engineering/migrating-microbit-programming-from-blocks-to-javascript-ZenBoba/blob/master/v0.1.js)**
 
 ### v0.2
 
