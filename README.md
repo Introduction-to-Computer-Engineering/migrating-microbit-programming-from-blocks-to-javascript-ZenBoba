@@ -96,11 +96,23 @@ _**Note:** Add your program descriptions below._
 
 **[etc.]**
 
+### v0.3
+
+**[]**
+
+### v0.4
+
+**[]**
+
+### v0.5
+
+**[]**
+
 ## Designs
 
 _**Note:** Add your project designs below._
 
-### Midterm project
+### v0.6 Midterm project
 
 _**Note:** Add your project designs below._
 
@@ -116,6 +128,26 @@ _**Note:** Add your project designs below._
 
 **[which JavaScript features you used in the implementation of your project idea]**
 
-### Final project
+### v0.7
+
+**[]**
+
+### v0.8
+
+**[]**
+
+### v0.9
+
+**[]**
+
+### v0.10
+
+**[]**
+
+### v0.11
+
+**[]**
+
+### v0.12 Final project
 
 **[etc.]**
